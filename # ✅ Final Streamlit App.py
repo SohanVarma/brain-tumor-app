@@ -1,4 +1,17 @@
 # ✅ Final Streamlit App
+# ✅ Put this at the VERY TOP
+import sys
+import streamlit as st
+
+st.write("Python version:", sys.version)
+
+# ✅ Then your existing imports:
+import tensorflow as tf
+from tensorflow.keras.preprocessing import image
+import numpy as np
+import os
+
+# ... rest of your Streamlit code ...
 
 import streamlit as st
 import tensorflow as tf
